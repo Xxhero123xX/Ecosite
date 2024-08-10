@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>EMP WEBSITE</title>
+    </head>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(ttttt.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.header1 {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 99;
+
+}
+.navigation a {
+    position: relative;
+    font-size: 2.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 200px;
+
+}
+.navigation a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    margin-left: 40px;
+    left: -40px;
+    bottom: -6px;
+    transform: scalex(0);
+    transition: 0.3s;
+}
+.navigation a:hover::after {
+    transform: scalex(1);
+
+}
+.text1 {
+    text-shadow: 5px;
+    font-size: 1.8em;
+    color: blueviolet;
+    font-family: Arial;
+    font-weight: 200px;
+    font-style: italic;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.text2 {
+    text-shadow: 5px;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-weight: 300px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 55px;
+}
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.you1 {
+    background-color: red;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    transition: opacity 0.20s;
+    display: inline-block;
+}
+.dis1 {
+    background-color: rgb(143, 0, 238);
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+        border-width: 5px;
+        height: 60px;
+        width: 150px;
+        border-radius: 20px;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        margin-right: 40px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        font-weight: bold;
+        font-size: 30px;
+        transition: opacity 0.20s;
+        display: inline-block;
+
+}
+.sup1 {
+    background-color: rgb(0, 105, 175);
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    margin-top: 0px;
+    margin-left: 40px; 
+    margin-bottom: 40px;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    transition: opacity 0.20s;
+    display: inline-block;
+}
+
+
+    </style>
+    <body>
+        <div>
+            <header class="header1">
+                <h2 class="logo">Programing by TAHA</h2>
+                <nav class="navigation">
+                    <a href="http://127.0.0.1:5500/EMP.html#">Home</a>
+                </nav>
+        </div>
+        <div class="div1">
+            <p class="text2">This  is a simlpe website for server </p>
+            <p class="text1">EMP</p>
+            <header class="header2">
+            <button class="you1" onclick="window.location.href='https://www.youtube.com/@A3BoD11';">Youtube</button>
+            <button class="dis1" onclick="window.location.href='https://discord.gg/4Xcc2s9n';">Discord</button>
+            <button class="sup1">Store</button>
+            </header>
+
+        </div>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
